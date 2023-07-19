@@ -42,14 +42,17 @@ main,
     align-items: center;
 }
 
-.logo,
+.nav-logo,
 .nav-title {
     padding: 10px;
 }
+.nav-logo{
+    width:80px;
 
+}
 .nav-title {
     color: #0B0223;
-    font-size: 2.8125rem;
+    font-size: 2.6rem;
     font-weight: 700;
 }
 
@@ -240,4 +243,39 @@ nav ul li a {
 
 .img2 {
     width: 200px;
+}
+
+/* arcade games section */
+.arcade-games {
+    margin: 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.arcade-btn {
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    width: 220px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    border:none;
+    background: #FFF;
+    color: #0B0223;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+.arcade-btn img{
+    width:40px;
+    height:40px;
+}
+.arcade-btn:hover{
+    border-radius: 50px;
+    border:2px solid #F948B2;
+    cursor:pointer;
 }
