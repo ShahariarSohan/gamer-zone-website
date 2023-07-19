@@ -86,8 +86,26 @@ nav ul {
     gap:20px;
 }
 .play-instantly{
-    width:100%;
+    width:90%;
+    margin:auto;
     flex-direction: column-reverse;
 }
-
+.play-instantly-img-container{
+    width:80%;
+    margin:auto;
+}
+.game-img1{
+    width:80%;
+    margin:auto;
+}
+.img1{
+    width:100%;
+}
+.img2{
+    width:80%;
+}
+.play-instantly-title,
+.para{
+    text-align:center;
+}
 }
