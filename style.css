@@ -11,7 +11,7 @@
 
 main,
 .banner-container {
-    width: 80%;
+    width: 77%;
     margin: auto;
 }
 
@@ -47,7 +47,7 @@ main,
     padding: 10px;
 }
 .nav-logo{
-    width:80px;
+    width:85px;
 
 }
 .nav-title {
@@ -245,7 +245,7 @@ nav ul li a {
     width: 200px;
 }
 
-/* arcade games section */
+/* arcade games section  styles*/
 .arcade-games {
     margin: 100px 0;
     display: flex;
@@ -278,4 +278,15 @@ nav ul li a {
     border-radius: 50px;
     border:2px solid #F948B2;
     cursor:pointer;
+}
+/* footer section styles */
+footer{
+    background: #0B0223;
+    height:500px;
+}
+.footer-logo-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align:center;
 }
