@@ -293,7 +293,9 @@ nav ul li a {
     border: 2px solid #F948B2;
     cursor: pointer;
 }
-
+.arcade-games a{
+    text-decoration: none;
+}
 /* footer section styles */
 footer {
     color: #FFF;
