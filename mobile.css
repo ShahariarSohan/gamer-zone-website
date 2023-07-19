@@ -3,7 +3,7 @@
 main,
 .banner-container {
     width: 100%;
-    margin: auto;
+    margin: 100px auto;
 }
 .nav-container,
 nav ul {
@@ -82,6 +82,7 @@ nav ul {
     
 }
 .online-games-title {
+    
     width:100%;
     font-size: 2rem;
     font-weight: 700;
