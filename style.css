@@ -9,13 +9,20 @@
 
 /* shared styles */
 
-main {
+main,
+.banner-container {
     width: 80%;
     margin: auto;
 }
 
-span {
+.capitalG {
     color: #FF42A5;
+}
+
+.primary-paragraph {
+    color: #534C64;
+    font-size: 1.125rem;
+    font-weight: 500;
 }
 
 /* nav seciton styles */
@@ -82,4 +89,61 @@ nav ul li a {
     color: #3C354F;
     font-size: 1.125rem;
     font-weight: 500;
+}
+
+/* banner section styles */
+.banner-container {
+    margin:50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.banner-text {
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.banner-title {
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.icons-text {
+    display: flex;
+    align-items: center;
+    gap:px;
+}
+
+.banner-btn{
+    margin-top:20px;
+    display: flex;
+    align-items: flex-start;
+    gap:20px;
+  }
+.btns {
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 15px 40px;
+    gap: 10px;
+    border-radius: 48px;
+    border: none;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+}
+.go-rogue-btn{
+    background:  #4EC5F7;
+}
+
+.banner-img {
+    width: 600px;
+   
 }
