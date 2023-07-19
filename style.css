@@ -25,7 +25,7 @@ main,
     font-weight: 500;
 }
 
-/* nav seciton styles */
+/* nav section styles */
 .nav-container {
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
@@ -146,4 +146,10 @@ nav ul li a {
 .banner-img {
     width: 600px;
    
+}
+/* online game section */
+.online-game-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }

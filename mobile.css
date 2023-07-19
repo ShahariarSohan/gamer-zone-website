@@ -1,0 +1,26 @@
+
+@media screen and (max-width:576px) {
+.nav-container,
+nav ul {
+    width:100%;
+    flex-direction: column;
+}
+.logo-container{
+    width:100%;
+    justify-content: center;
+    
+}
+.nav-logo,
+.nav-title{
+    padding:2px;
+    width:10%;
+    font-size: 1.5rem;
+
+}
+.banner-container{
+    flex-direction: column-reverse;
+}
+.banner-img{
+    width:100%;
+}
+}
