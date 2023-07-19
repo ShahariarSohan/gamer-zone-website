@@ -19,10 +19,20 @@ main,
     color: #FF42A5;
 }
 
-.primary-paragraph {
+.primary-description {
     color: #534C64;
     font-size: 1.125rem;
     font-weight: 500;
+}
+
+.primary-design {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+    font-weight: 700;
+
 }
 
 /* nav section styles */
@@ -93,11 +103,11 @@ nav ul li a {
 
 /* banner section styles */
 .banner-container {
-    margin:50px auto;
+    margin: 100px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
 }
 
 .banner-text {
@@ -108,7 +118,7 @@ nav ul li a {
 }
 
 .banner-title {
-    font-size: 95px;
+    font-size: 5.875rem;
     font-weight: 800;
     text-transform: uppercase;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -120,15 +130,16 @@ nav ul li a {
 .icons-text {
     display: flex;
     align-items: center;
-    gap:px;
+    gap: px;
 }
 
-.banner-btn{
-    margin-top:20px;
+.banner-btn {
+    margin-top: 20px;
     display: flex;
     align-items: flex-start;
-    gap:20px;
-  }
+    gap: 20px;
+}
+
 .btns {
     color: #FFF;
     font-size: 1rem;
@@ -139,17 +150,49 @@ nav ul li a {
     border: none;
     background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
 }
-.go-rogue-btn{
-    background:  #4EC5F7;
+
+.go-rogue-btn {
+    background: #4EC5F7;
 }
 
 .banner-img {
     width: 600px;
-   
+
 }
+
 /* online game section */
-.online-game-container{
+.online-games {
+    
+    margin-bottom: 100px;
+}
+
+.online-games-title {
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.online-para {
+    margin: 30px 0;
+    color: #534C64;
+    font-size: 1.125rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.online-game-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+
+.card {
+    width: 250px;
+}
+
+.game-logo {
+    width: 100%;
+
 }
