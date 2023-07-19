@@ -21,7 +21,7 @@ nav ul {
     
 }
 .nav-logo{
-    width:10%;
+    width:12%;
 }
 .nav-logo,
 .nav-title{
@@ -112,9 +112,40 @@ nav ul {
 .img2{
     width:80%;
 }
+.game-img2{
+    
+    margin-top:-100px;
+    margin-left:-40px;
+}
 .play-instantly-title,
 .para{
     text-align:center;
 }
 
+.footer-logo-container{
+text-align: center;
+width:100%;
+}
+.footer-title{
+    font-size: 1.5rem;
+}
+#footer-logo{
+    width:40px;
+}
+.footer-nav ul {
+    flex-wrap: wrap;
+}
+.footer-nav ul{
+    padding:20px;
+}
+.footer-nav ul li {
+    padding:10px;
+}
+.social-icon{
+    margin:20px;
+}
+.policys ul li a {
+    padding: 5px;
+    
+}
 }
