@@ -12,7 +12,8 @@ nav ul {
     gap:30px;
 }
 .nav-container{
-    margin-top:50px;
+   padding-top:50px;
+   background-color: #FFF;
 }
 .logo-container{
     width:100%;
@@ -80,11 +81,18 @@ nav ul {
     width:100%;
     
 }
+.online-games-title {
+    width:100%;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
 .online-game-container{
     width:100%;
     flex-direction: column;
     gap:20px;
 }
+
 .play-instantly{
     width:90%;
     margin:auto;
@@ -108,4 +116,5 @@ nav ul {
 .para{
     text-align:center;
 }
+
 }
