@@ -21,7 +21,7 @@ main,
 
 .primary-description {
     color: #534C64;
-    font-size: 1.125rem;
+    font-size: 1rem;
     font-weight: 500;
 }
 
@@ -94,13 +94,13 @@ nav ul li a {
     justify-content: space-evenly;
     align-items: center;
     color: #3C354F;
-    font-size: 1.125rem;
+    font-size: 1rem;
     font-weight: 500;
 }
 
 /* banner section styles */
 .banner-container {
-    margin: 100px auto;
+    margin: 100px  auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -109,13 +109,13 @@ nav ul li a {
 
 .banner-text {
     color: #0B0223;
-    font-size: 2.6rem;
+    font-size: 2.4rem;
     font-weight: 600;
     text-transform: uppercase;
 }
 
 .banner-title {
-    font-size: 5rem;
+    font-size: 4.5rem;
     font-weight: 800;
     text-transform: uppercase;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -127,7 +127,9 @@ nav ul li a {
 .icons-text {
     display: flex;
     align-items: center;
-    gap: px;
+    gap:10px;
+    padding:2px 0;
+    
 }
 
 .banner-btn {
@@ -154,6 +156,7 @@ nav ul li a {
 
 .banner-img {
     width: 500px;
+    
 
 }
 
@@ -182,7 +185,7 @@ nav ul li a {
 .online-para {
     margin: 30px 0;
     color: #534C64;
-    font-size: 1.125rem;
+    font-size: 1rem;
     font-weight: 400;
     text-align: center;
 }
@@ -213,7 +216,7 @@ nav ul li a {
 }
 
 .play-instantly-content {
-    width: 300px;
+    width: 400px;
 }
 
 .play-instantly-title {
@@ -232,9 +235,10 @@ nav ul li a {
 }
 
 .para {
+    padding:20px;
     margin-top: 20px;
     color: #534C64;
-    font-size: 1.125rem;
+    font-size: 1rem;
     font-weight: 400;
     text-align: right;
 }
@@ -244,7 +248,13 @@ nav ul li a {
 }
 
 .img2 {
-    width: 200px;
+    width:200px;
+}
+.game-img2{
+    position:relative;
+    width:200px;
+    margin-top:-100px;
+    margin-left:-100px;
 }
 
 /* arcade games section  styles*/
