@@ -1,0 +1,76 @@
+@media screen and (min-width:576px) and (max-width:992px){
+    main,
+.banner-container {
+    width: 100%;
+    margin: auto;
+}
+
+.banner-container{
+    width:100%;
+    flex-direction: column-reverse;
+    margin:50px 0;
+}
+.banner-content{
+    padding-top:50px;
+    width:80%;
+    text-align: center;
+    margin:auto;
+}
+.banner-text {
+    margin:auto;
+    width:80%;
+    font-size: 2rem;
+}
+.banner-title {
+    font-size: 4rem;
+    font-weight: 800;
+
+}
+
+.primary-description {
+    font-size: 0.8rem;
+}
+.icons-text {
+     
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    padding:2px 0;
+    
+}
+.banner-btn {
+   gap:5px;
+    justify-content: center;
+}
+.btns {
+    
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 10px 20px;
+    gap: 10px;
+}
+.banner-img-container{
+    width:80%;
+    margin:auto;
+}
+.banner-img{
+    width:100%;
+    
+}
+.online-game-container {
+    width:80%;
+    margin:auto;
+    display:grid;
+    gap:30px;
+    grid-template-columns: repeat(2,1fr);
+}
+.play-instantly {
+    flex-direction: column-reverse;
+    gap: 50px;
+}
+.play-instantly-title,
+.para{
+    text-align:center;
+}
+}
