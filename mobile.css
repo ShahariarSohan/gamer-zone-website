@@ -13,7 +13,6 @@ nav ul {
 .nav-logo,
 .nav-title{
     padding:2px;
-    width:10%;
     font-size: 1.5rem;
 
 }
@@ -22,5 +21,12 @@ nav ul {
 }
 .banner-img{
     width:100%;
+}
+.online-game-container{
+    flex-direction: column;
+    gap:20px;
+}
+.play-instantly{
+    flex-direction: column-reverse;
 }
 }
