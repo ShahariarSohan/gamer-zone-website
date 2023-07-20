@@ -94,7 +94,9 @@ nav ul {
     flex-direction: column;
     gap:20px;
 }
-
+.card .overlay {
+    height:91%;
+}
 .play-instantly{
     width:90%;
     margin:auto;

@@ -73,6 +73,9 @@
     gap:30px;
     grid-template-columns: repeat(2,1fr);
 }
+.card .overlay {
+    height:91%;
+}
 .play-instantly {
     flex-direction: column-reverse;
     gap: 50px;
