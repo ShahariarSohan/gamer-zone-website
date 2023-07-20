@@ -295,7 +295,7 @@ nav ul li a {
 
 .arcade-btn:hover {
     border-radius: 50px;
-    border: 2px solid #F948B2;
+    border: 2px solid aqua;
     cursor: pointer;
 }
 .arcade-games a{
