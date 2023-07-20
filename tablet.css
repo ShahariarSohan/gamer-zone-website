@@ -88,5 +88,10 @@
 .game-img2{
     width:200px;
 }
-
+.game-img2{
+    position:relative;
+    width:300px;
+    margin-top:-170px;
+    margin-left:-100px;
+}
 }
