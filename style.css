@@ -11,7 +11,7 @@
 
 main,
 .banner-container {
-    width: 77%;
+    width: 90%;
     margin: auto;
 }
 
@@ -29,10 +29,11 @@ main,
 
 /* nav section styles */
 .nav-container {
+    padding:0 70px;
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -155,7 +156,7 @@ nav ul li a {
 }
 
 .banner-img {
-    width: 500px;
+    width: 600px;
     
 
 }
@@ -245,17 +246,17 @@ nav ul li a {
 }
 
 .img1 {
-    width: 400px;
+    width: 500px;
 }
 
 .img2 {
-    width:200px;
+    width:300px;
 }
 .game-img2{
     position:relative;
-    width:200px;
+    width:300px;
     margin-top:-100px;
-    margin-left:-100px;
+    margin-left:-150px;
 }
 
 /* arcade games section  styles*/

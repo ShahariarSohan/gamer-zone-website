@@ -11,6 +11,7 @@ nav ul {
     flex-direction: column;
     gap:30px;
 }
+
 .nav-container{
    padding-top:50px;
    background-color: #FFF;
@@ -108,11 +109,12 @@ nav ul {
     margin:auto;
 }
 .img1{
-    width:100%;
+    width:107%;
 }
 .img2{
-    width:80%;
+    width:50%;
 }
+
 .game-img2{
     
     margin-top:-100px;

@@ -4,7 +4,10 @@
     width: 100%;
     margin: 100px auto;
 }
-
+.nav-container {
+    justify-content: space-around;
+    padding:0;
+}
 .banner-container{
     width:100%;
     flex-direction: column-reverse;
@@ -24,6 +27,11 @@
 .banner-title {
     font-size: 4rem;
     font-weight: 800;
+
+}
+.banner-img {
+    width: 500px;
+    
 
 }
 
@@ -73,4 +81,12 @@
 .para{
     text-align:center;
 }
+.img1 {
+    width: 400px;
+}
+.img2,
+.game-img2{
+    width:200px;
+}
+
 }
