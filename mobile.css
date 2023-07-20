@@ -45,7 +45,7 @@ nav ul {
     margin:auto;
 }
 .banner-text {
-    
+    padding-top:20px;
     margin:auto;
     width:80%;
     font-size: 2rem;
@@ -69,9 +69,9 @@ nav ul {
     
 }
 .banner-btn {
-    
-   gap:5px;
+    gap:5px;
     justify-content: center;
+    padding-bottom:20px;
 }
 .btns {
     
@@ -134,7 +134,9 @@ nav ul {
 .para{
     text-align:center;
 }
-
+.arcade-games{
+    margin:50px 0;
+}
 .footer-logo-container{
     padding-bottom:0px;
     justify-content: center;

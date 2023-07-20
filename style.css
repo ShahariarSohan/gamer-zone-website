@@ -102,7 +102,7 @@ nav ul li a {
 /* banner section styles */
 .banner-container {
     background-image: url('images/Group\ 14.png');
-    background-size:cover;
+    background-size:contain;
     background-repeat: no-repeat;
     margin: 100px  auto;
     display: flex;
