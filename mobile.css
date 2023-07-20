@@ -30,17 +30,22 @@ nav ul {
     font-size: 1.5rem;
 }
 .banner-container{
+    background-image:none;
     width:100%;
     flex-direction: column-reverse;
     margin:50px 0;
 }
 .banner-content{
-    padding-top:50px;
+    background-image: url('images/Group 14.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding-left:0;
     width:80%;
     text-align: center;
     margin:auto;
 }
 .banner-text {
+    
     margin:auto;
     width:80%;
     font-size: 2rem;
@@ -64,6 +69,7 @@ nav ul {
     
 }
 .banner-btn {
+    
    gap:5px;
     justify-content: center;
 }
@@ -75,6 +81,8 @@ nav ul {
     gap: 10px;
 }
 .banner-img-container{
+    padding-bottom:50px;
+    padding-right:0;
     width:80%;
     margin:auto;
 }
