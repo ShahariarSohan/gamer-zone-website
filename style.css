@@ -284,7 +284,10 @@ nav ul li a {
     font-size: 1.125rem;
     font-weight: 600;
 }
-
+#arcade{
+    color:#F948B2;
+    border: 2px solid #F948B2;
+}
 .arcade-btn img {
     width: 40px;
     height: 40px;
